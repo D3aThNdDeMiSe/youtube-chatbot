@@ -1,0 +1,10 @@
+Openscene / Video Frame context:
+
+
+Pick video frames and add them as context to transcript
+
+
+shokhi:
+
+
+generate 3 transcripts, coarse, semi-fine and fine-grained with differing transcript chunk sizes. Pass to model in a "preprocessor" step to segment chunks into topics. Pick frames for separate topics rather than hard-coded lengths.

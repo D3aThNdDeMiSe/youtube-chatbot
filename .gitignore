@@ -1,0 +1,30 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Runtime artifacts
+KV_Caches/
+Transcript_Lengths/
+chroma_db/
+downloads/
+transcripts/
+
+# Local model weights (download separately)
+faster-whisper-large-v3-turbo/
+Qwen0.5b-RagSemanticChunker/
+
+# Nested repos / tooling
+yt-audio-api/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.ipynb_checkpoints/
+
+# Logs
+*.log

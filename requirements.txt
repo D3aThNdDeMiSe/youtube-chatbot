@@ -1,0 +1,15 @@
+torch
+transformers>=4.51.0
+accelerate
+bitsandbytes
+python-dotenv
+yt-dlp
+youtube-transcript-api
+faster-whisper
+langchain-core
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+sentence-transformers>=2.7.0
+chromadb
