@@ -7,10 +7,6 @@
 
 An adaptive question-answering pipeline for YouTube videos that routes each request to the most efficient retrieval strategy based on video length. Short videos use **Cache-Augmented Generation (CAG)** with KV-cache prefill; longer videos use **Retrieval-Augmented Generation (RAG)** with semantic chunking and vector search.
 
-Built as part of my internship work on multimodal video understanding — starting with transcript-only QA and extending toward frame-aware context in future iterations.
-
-**Author:** [Immad Shah](https://github.com/D3aThNdDeMiSe)
-
 ---
 
 ## 🎯 Project Overview
@@ -130,9 +126,8 @@ This project turns a YouTube URL into a local QA system over the video transcrip
 ### Prerequisites
 
 - Python 3.10+
-- CUDA-capable GPU recommended (CPU fallback possible but slow)
+- CUDA-capable GPU
 - Hugging Face account with access to Llama 3.2
-- `ffmpeg` recommended for reliable audio extraction
 
 ### Setup
 
@@ -324,8 +319,8 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 **Immad Shah (D3aThNdDeMiSe)**
 
 - GitHub: [@D3aThNdDeMiSe](https://github.com/D3aThNdDeMiSe)
-- LinkedIn: [M Abdullah Butt](https://www.linkedin.com/in/m-abdullah-butt-01-01-abc/)
-- Email: abdullah03467496@gmail.com
+- LinkedIn: [Immad Shah](https://www.linkedin.com/in/immad-shah-719422294/)
+- Email: immadshah18@gmail.com
 
 If this repo helps your own CAG/RAG experiments, a ⭐ on GitHub is appreciated.
 
